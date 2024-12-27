@@ -189,3 +189,24 @@ body {
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2); /* Adiciona uma sombra ao botão */
     transform: scale(0.98); /* Reduz ligeiramente o tamanho do botão para dar um efeito de clique */
 }
+/* Media query para dispositivos móveis */
+@media (max-width: 768px) {
+    .container {
+        grid-template-columns: 100%;
+        height: auto;
+    }
+
+    .principal {
+        background-size: cover;
+    }
+
+    .container__botao {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .secundario__imagem {
+        width: 100%;
+        height: auto;
+    }
+}
